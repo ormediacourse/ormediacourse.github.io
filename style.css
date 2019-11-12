@@ -1,0 +1,626 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************/
+
+
+
+
+body{
+font-family: 'Gotham Rounded Bold';
+background: #dddddd;
+}
+
+.wrapper {
+max-width: 1280px;
+width: 100%;
+margin: 0 auto;
+
+}
+
+header {
+background-image: url(./img/Livello.png);
+height: 745px;
+}
+
+header ul {
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+
+header ul li {display: inline;
+padding-left: 80px;
+color: white;
+text-transform: uppercase;
+font-size: 16px;
+}
+header .ites ul li:hover {
+	color: #16a085;
+}
+
+header ul li:first-child{
+	padding-left: 90px;
+}
+
+.ites{
+width: 70%;
+margin: 0 auto;
+}
+
+.ites h1 {
+text-align: center;
+font-size: 36px;
+color: white;
+text-transform: uppercase;
+padding-top: 245px;
+letter-spacing: 5px;
+}
+.ites p {
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: 'Gotham Rounded Medium';
+	letter-spacing: 2px;
+}
+
+.ites .bttnos, .descr .bttnos{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.ites .bttnos a, .descr .bttnos a, .container3 .de3 .bttnos a {
+text-decoration: none;
+font-size: 12px;
+color: white;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 22px 32px 22px 32px;
+background: #16a085;
+border-radius: 2px;
+}
+.container2 {
+height: 484px;
+background-color: #f5f6f7;
+}
+.container2 .descr {
+	width: 40%;
+display: inline-block;
+}
+.container2 .descr h2 {
+	padding-left: 130px;
+	padding-top: 115px;
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+.container2 .descr pre, .container3 pre {
+	padding-left: 130px;
+	padding-top: 50px;
+	font-family: 'Gotham Rounded Book';
+	font-size: 12px;
+	color: #505051;
+	line-height: 27px;
+	letter-spacing: 1px;
+}
+.container2 .descr pre span, .container3 pre span {
+	font-family: 'Gotham Rounded Bold';
+}
+
+.container2 .descr .bttnos {
+	margin-left: -75px;
+}
+
+.container2 .phone1 {float: right;
+clear: both;
+width: 60%;
+padding-top: 85px;
+max-height: 400px;
+overflow: hidden;
+}
+
+.container2 .phone1 img { width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-left: -13%;
+}
+
+.container3 {
+	height: 560px;
+background-color: #ffffff;
+}
+.container3 .phone2 {float: left;
+	clear: both;
+	width: 28%;
+	padding-top: 147px;
+	max-height: 413px;
+	overflow: hidden;
+	padding-left: 10%;
+	}
+	
+	.container3 .phone2 img { width: 90%;
+		height: 90%;
+		object-fit: cover;		
+	}
+.container3 .de3 {
+	position: relative;
+	left: 331px;
+	padding-top: 146px;
+}
+.container3 .de3 h2 {
+	text-transform: uppercase;
+	color: #16a085;
+	letter-spacing: 2px;
+	font-size: 18px;
+	
+}
+.container3 .de3 .bttnos  {
+	text-align: center;
+	display: inline-block;
+	padding: 0px;
+	margin-top: 45px;
+	margin-left: 0px;
+}
+
+
+.container4{
+height: 485px;
+background-color: #f5f6f7;
+width: 100%;
+display: inline-block; /* я хз почему оно работает только так*/
+}
+
+.container4 .d41 {
+	position: relative;
+	top: -30px;
+	padding-top: 166px;
+	margin-left: 128px;
+	display: inline-block;
+}
+.container4 .d41 #vn {
+	text-align: center;
+}
+.container4 .d41 h2{
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 3px;
+	padding-top: 34px;
+	padding-bottom: 28px;
+}
+.container4 .d41 p {
+	font-family: 'Gotham Rounded Medium';
+	font-size: 10px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	font-weight: 100;
+}
+.container4 .hefv {
+	width: 60px;
+	filter: sepia(100%) saturate(2000%) hue-rotate(85deg) brightness(0.65) 
+	}
+
+	.container4 .d42 {
+		display: inline-block;
+		padding-top: 122px;
+		width: 372px;
+		margin-left: 82px;
+	}
+	.container4 .d43 {
+		display: inline-block;
+		width: 371px;
+		margin-left: 25px;
+	}
+
+.container5 {
+height: 791px;
+background-image: url(./img/Livello3.png);
+}
+
+.container5 h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+color: #ffffff;
+letter-spacing: 3px;
+padding-top: 352px;
+}
+.container5 form {
+	padding-top: 35px;
+	text-align: center;
+	height: 60px;
+}
+.container5 form fieldset{
+	
+	display: inline-block;
+	
+}
+.container5 form fieldset input {
+	width: 282px;
+	height: 54px;
+	font-size: 16px;
+	font-family: 'Gotham Rounded Medium';
+	text-transform: uppercase;
+	padding-left: 25px;
+	letter-spacing: 2px;
+	color: #373737;
+}
+
+.container5 form div {
+	display: inline-block;
+	position: relative;
+	left: -5px;
+	bottom: -25px;
+}
+
+
+
+.container6 {
+	height: 400px;
+	background-color: #f5f6f7;
+
+
+}
+.container6 h2 {
+	font-size: 20px;
+	color: #373737;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 90px;
+}
+.container6 .desk {
+width: 100%;
+text-align: center;
+}
+.container6 p {
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+padding-top: 20px;
+letter-spacing: 2px;
+font-size: 12px;
+text-transform: uppercase;
+font-family: 'Gotham Rounded Medium';
+color: #373737;
+line-height: 27px;
+}
+.two_buttons {
+	text-align: center;
+	padding-top: 20px;
+}
+.two_buttons1, .two_buttons2 {
+	display: inline-block;
+}
+
+.two_buttons a{
+	text-decoration: none;
+	padding: 25px 80px 20px 25px;
+	background-color: #1abc9c;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 2px;
+}
+
+.two_buttons .two_buttons2 a{
+	margin-left: 20px;
+}
+
+.two_buttons a svg{
+	position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: 25px;
+    padding: 19px;
+	background: #16a085;
+	border-radius: 0 2px 2px 0;
+}
+
+.container7 {
+height: 131px;
+background-color: #ffffff;
+}
+
+.container7 p {
+	padding-top: 86px;
+	padding-left: 127px;
+	font-family: 'Gotham Rounded Bold';
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+
+@media (max-width:1200px) {
+	header .ites ul li {
+		display: block;
+		padding-left: 0px;
+		padding-top: 15px;
+	}
+	header .ites h1 {
+		padding-top: 106px;
+		font-size: 20px;
+	}
+	
+	header .ites ul {
+		text-align: center;
+	}
+	.container2 {
+		height: 884px;
+	}
+	.container2 .descr h2, .container2  .descr pre{
+		padding-left: 10%;
+		padding-top: 45px;
+	}
+	.container2 .descr .bttnos {
+		display: inherit;
+		margin-left: 0;
+		padding-left: 10%;
+		padding-top: 45px;
+	}
+	.container2 .phone1 {float: none;
+		padding-left: 10%;
+		clear: both;
+		width: 80%;
+		padding-top: 25px;
+		max-height: 480px;
+		overflow: hidden;
+		}
+
+		.container3 .de3 {
+			position: relative;
+			left: 10%;
+		}
+	.container4 .ass {
+		text-align: center;
+	}
+	.container4 .d41 {
+		background-image: url(./img/Livello6.png);
+		width: 310px;
+		color: #ffffff;
+		padding-top: 3%;
+		margin-left: 5%;
+		padding-left: 4%;
+		padding-bottom: 3%;
+	}
+	.container4 .d41 h2 {
+		padding-top: 17px;
+	}
+	.container4 .hefv {
+		padding-top: 17px;
+		filter: invert(1)
+		}
+	.container4 .d42 {
+		margin-left: 5%;
+		width: 340px;
+	}
+	.container4 .d42 img{
+		width: 340px;
+	}
+	.container4 .d43 {
+		display: none;
+	}
+
+}
+@media (max-width:768px) {
+	.container2 .descr {
+		width: 90%;
+		text-align: center;
+	}
+	.container2 .descr h2 {
+		text-align: center;
+	}
+	.container2 .descr pre {
+		margin-left: 0%;
+	}
+	.container2 .descr .bttnos {
+		display: block;
+		margin-left:0 ;
+	}
+	.container3 {
+		height: 340px;
+		text-align: center;
+	}
+	.container3 .phone2 {
+		padding-top: 30px;
+		display: none;
+		float: none;
+	}
+	.container3 .de3 {
+		padding-top: 20px;
+		left: 0;
+	}
+	.container3 .de3 pre {
+		padding: 0;
+	}
+	.container4 {
+		text-align: center;
+	}
+	.container4 .d41 {
+		margin-top: 30px;
+		text-align: center;
+		width: 325px;
+		margin-left: 0%;
+	}
+	.container4 .d42 {
+		margin-left: 0%;
+		width: 345px;
+		padding-top: 0px;
+	}
+	.container4 .d42 img{
+		width: 100%;
+	}
+	.container5 {
+		height: 509px;
+		background-image: url(./img/Livello3-4-2.png);
+	}
+	.container5 h2 {
+		padding-top: 150px;
+		font-size: larger;
+	}
+	.container5 form {
+		padding-top: 25px;
+		height: 40px;
+	}
+	.container5 form fieldset input {
+		width: 182px;
+		height: 40px;
+		font-size: 12px;
+		padding-left: 20px;
+	}
+	.container5 form div {
+		top: 18px;
+	}
+	.container5 form div input{
+		height: 45px;
+	}
+
+	.container6 {
+		height: 360px;
+		text-align: center;
+	}
+	.container6 h2 {
+		padding-top: 40px;
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+	.container6 p {
+
+	letter-spacing: 1px;
+	font-size: 10px;
+	line-height: 15px;
+	}
+	
+	.two_buttons {
+		text-align: center;
+		padding-top: 0px;
+	}
+	
+	.two_buttons a{
+		padding: 20px 0px 14px 25px;
+		font-size: 14px;
+	}
+	.two_buttons .two_buttons1, .two_buttons .two_buttons2 {
+		display: block;
+		margin-top: 20px;
+	}
+	.two_buttons .two_buttons2 a{
+		margin-left: 0px;
+	}
+	
+	.two_buttons a svg{
+		left: 30px;
+		top: 14px;
+		font-size: 20px;
+		padding: 15px;
+	}
+	.two_buttons1 a svg {
+		top: 15px;
+	}
+	.container7 {
+		height: 81px;
+		}
+		
+		.container7 p {
+			padding-top: 30px;
+			padding-left:10%;
+			font-size: 10px;
+		}
+	
+}
+@media (max-width:435px) {
+	header .ites h1 {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	header .ites p {
+		font-size: 12px;
+	}
+	.container2 .descr pre, .container3 .de3 pre {
+		font-size: 8px;
+	}
+	.container3 {
+		height: 330px;
+	}
+	.container4 .d41, .container4 .d42 {
+		padding-right: 0;
+		padding-left: 0%;
+		width: 80%;
+	}
+	.container5 {
+		height: 322px;
+		background-image: url(./img/Livello3-5.png);
+	}
+	.container5 h2 {
+		padding-top: 100px;
+		font-size: large;
+	}
+	.container6 {
+		height: 280px;
+	}
+	.two_buttons a{
+		padding: 14px 0px 10px 40px;
+		font-size: 10px;
+	}
+	.two_buttons a svg{
+		left:30px;
+		top: 10px;
+		font-size: 16px;
+		padding: 10px;
+	}
+	.container6 h2 {
+		padding-top: 35px;
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+	.container6 p {
+
+	letter-spacing: 1px;
+	font-size: 9px;
+	line-height: 10px;
+	}
+
+}
